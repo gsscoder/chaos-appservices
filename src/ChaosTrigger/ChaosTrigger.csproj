@@ -16,5 +16,12 @@
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
   </ItemGroup>
-  <Import Project="..\..\.paket\Paket.Restore.targets" />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.11" />
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Logging.ApplicationInsights" Version="3.0.25" />
+    <PackageReference Include="Polly.Contrib.Simmy" Version="0.3.0" />
+    <PackageReference Include="CSharpx" Version="2.7.3" />
+    <PackageReference Include="Bogus" Version="33.0.2" />
+  </ItemGroup>
 </Project>
