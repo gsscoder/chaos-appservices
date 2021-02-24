@@ -1,0 +1,19 @@
+# top-most EditorConfig file for repo
+root = true
+
+# Unix-style newlines
+[*]
+end_of_line = lf
+insert_final_newline = false
+
+[*.cs]
+indent_style = space
+indent_size = 4
+
+[*.csproj]
+indent_style = space
+indent_size = 2
+
+[*.{xml,config}]
+indent_style = space
+indent_size = 4

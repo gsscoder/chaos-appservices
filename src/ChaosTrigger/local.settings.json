@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "test_debug",
+    // Latency
+    "ChaosLatencySeconds": 5,
+    "ChaosLatencyInjectionRate": 0.1,
+    "ChaosLatencyEnabled": true,
+    // Fault
+    "ChaosFaultInjectionRate": 0.05,
+    "ChaosFaultEnabled": true
+  }
+}
