@@ -34,11 +34,33 @@ On Azure add all configuration settings present in `local.settings.json` prefixe
 
 ## Execute
 
+### Function App
+
 Open Visual Studio and point your web browser to [http://localhost:7071/api/ProductsFunction](http://localhost:7071/api/ProductsFunction).
 
 The project is configured to use [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) locally:
 
 ![Chaos Trigger AI Screenshot](./assets/chaostriggeraishot.png "Chaos Trigger AI Screenshot")
+
+### Console App
+
+A sample console app is provided to demonstrate access to Application Insights using the REST API. It reads only trace events.
+
+```yaml
+{
+    "httpTimeout": 10000,
+    "aiApplicationId": "{your_app_insights_app_id}",
+    "aiApiKey": "{your_api_key}",
+    "daysAgo": 30
+}
+```
+
+You need to configure `appsettings.json` with your AI Application ID and API key.
+
+![AI API Access](./assets/aiapisettings.png "AI API Access")
+
+Just create an API key and set it along with Application ID in the configuration file.
+The application will write to standard output the returned JSON.
 
 ## Libraries
 
