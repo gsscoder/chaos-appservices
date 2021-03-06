@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5277FB4B-699
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaosTrigger", "src\ChaosTrigger\ChaosTrigger.csproj", "{67396CAD-D6CC-4495-8AB6-026263E4DAED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIReader", "src\AIReader\AIReader.csproj", "{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,8 +38,21 @@ Global
 		{67396CAD-D6CC-4495-8AB6-026263E4DAED}.Release|x64.Build.0 = Release|Any CPU
 		{67396CAD-D6CC-4495-8AB6-026263E4DAED}.Release|x86.ActiveCfg = Release|Any CPU
 		{67396CAD-D6CC-4495-8AB6-026263E4DAED}.Release|x86.Build.0 = Release|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Debug|x64.Build.0 = Debug|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Release|x64.Build.0 = Release|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{67396CAD-D6CC-4495-8AB6-026263E4DAED} = {5277FB4B-6998-4FAC-AFAE-A34314570402}
+		{B5BBCB20-8CF4-4C86-AF44-F1BE5FA372E5} = {5277FB4B-6998-4FAC-AFAE-A34314570402}
 	EndGlobalSection
 EndGlobal
