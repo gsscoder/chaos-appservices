@@ -51,6 +51,8 @@ The submitted [KQL](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/c
 traces | where timestamp <= ago(1h) | limit 50
 ```
 
+You need to configure `appsettings.json` with your AI Application ID and API key.
+
 ```yaml
 {
     "httpTimeout": 10000,
@@ -59,8 +61,6 @@ traces | where timestamp <= ago(1h) | limit 50
     "timesAgo": "1h"
 }
 ```
-
-You need to configure `appsettings.json` with your AI Application ID and API key.
 
 ![AI API Access](./assets/aiapisettings.png "AI API Access")
 
