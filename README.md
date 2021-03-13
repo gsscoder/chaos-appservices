@@ -51,7 +51,7 @@ The submitted [KQL](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/c
 traces | where timestamp <= ago(1h) | limit 50
 ```
 
-You need to configure `appsettings.json` with your AI Application ID and API key.
+You need to configure `appsettings.json` with your AI **Application ID** and **API key**.
 
 ```yaml
 {
@@ -64,7 +64,7 @@ You need to configure `appsettings.json` with your AI Application ID and API key
 
 ![AI API Access](./assets/aiapisettings.png "AI API Access")
 
-Just create an API key and set it along with Application ID in the configuration file.
+Just create an **API key** and set it along with **Application ID** in the configuration file.
 The application will write to standard output the returned JSON.
 
 ## Libraries
