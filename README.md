@@ -45,13 +45,18 @@ The project is configured to use [Application Insights](https://docs.microsoft.c
 ### Console App
 
 A sample console app is provided to demonstrate access to Application Insights using the REST API. It reads only trace events.
+The submitted [KQL](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/concepts/) query is:
+
+```sql
+traces | where timestamp <= ago(1h) | limit 50
+```
 
 ```yaml
 {
     "httpTimeout": 10000,
     "aiApplicationId": "{your_app_insights_app_id}",
     "aiApiKey": "{your_api_key}",
-    "daysAgo": 30
+    "timesAgo": "1h"
 }
 ```
 
