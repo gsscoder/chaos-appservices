@@ -13,5 +13,5 @@ static class Settings
     public static ushort HttpTimeout => _instance.GetValue<ushort>("httpTimeout"); 
     public static Guid AIApplicationId => _instance.GetValue<Guid>("aiApplicationId"); 
     public static string AIApiKey => _instance.GetValue<string>("aiApiKey"); 
-    public static uint Days => _instance.GetValue<ushort>("daysAgo"); 
+    public static string TimesAgo => _instance.GetValue<string>("timesAgo"); 
 }

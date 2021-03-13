@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <Title>AI Reader App</Title>
     <Description>AI Reader App</Description>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Update="appsettings.json">
